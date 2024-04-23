@@ -31,7 +31,7 @@
 
   </ion-list>
   <div>
-    <CardComponent id = "mensaje" value = "Gestión de clientes" subtitulo="Hola mundo" color= "warning" header = "Cabeza" subtitle = "Mensaje" content= "Escribe tu Mensaje"></CardComponent>
+    <CardComponent id = "mensaje" value = "Gestión de clientes" subtitulo="Hola mundo" content= "Espero que este mensaje te haga feliz!" color="warning"></CardComponent>
   </div>
   
     </ion-content>

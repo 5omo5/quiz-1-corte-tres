@@ -1,12 +1,12 @@
 <template>
-            <ion-card>
+            <ion-card :id="id" :color="color">
                 <ion-card-header>
                     <ion-card-title>{{value}}</ion-card-title>
                     <ion-card-subtitle>{{subtitulo}}</ion-card-subtitle>
                     </ion-card-header>
 
                     <ion-card-content>
-                    Here's a small text description for the card content. Nothing more, nothing less.
+                    {{ content }}
                     </ion-card-content>            
             </ion-card>
 
@@ -27,6 +27,8 @@
         type: String
       },
 
+      
+      
       color: String,
       header: String,
       title: String,
